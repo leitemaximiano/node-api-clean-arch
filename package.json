@@ -1,0 +1,8 @@
+{
+  "name": "node-api-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:leitemaximiano/node-api-clean-arch.git",
+  "author": "Maximiano Leite <macio.pb.cg@gmail.com>",
+  "license": "MIT"
+}
