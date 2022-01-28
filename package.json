@@ -5,7 +5,23 @@
   "repository": "git@github.com:leitemaximiano/node-api-clean-arch.git",
   "author": "Maximiano Leite <macio.pb.cg@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "lint": "npx lint-staged"
+  },
+  "lint-staged": {
+    "*.js": [
+      "standard --fix",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "devDependencies": {
+    "husky": "^4.0.0-beta.5",
+    "lint-staged": "^12.3.2",
     "standard": "^16.0.4"
   }
 }
