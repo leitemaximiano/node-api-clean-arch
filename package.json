@@ -6,7 +6,8 @@
   "author": "Maximiano Leite <macio.pb.cg@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "lint": "npx lint-staged"
+    "lint": "npx lint-staged",
+    "test": "jest"
   },
   "lint-staged": {
     "*.js": [
@@ -21,6 +22,7 @@
   },
   "devDependencies": {
     "husky": "^4.0.0-beta.5",
+    "jest": "^27.4.7",
     "lint-staged": "^12.3.2",
     "standard": "^16.0.4"
   }
